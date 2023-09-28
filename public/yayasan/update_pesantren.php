@@ -66,7 +66,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("i", $id);
         $stmt->execute();
         $result = $stmt->get_result();
+<<<<<<< HEAD
         $row = $result->fetch_assoc();
+=======
+<<<<<<< HEAD
+        $row = $result->fetch_assoc();
+=======
+
+        // Check if any rows were returned
+        if ($result->num_rows === 0) {
+            echo '<div class="alert alert-danger mt-3" role="alert">ID not found in the table.</div>';
+        } else {
+            $row = $result->fetch_assoc();
+>>>>>>> 6e25d9b (Add system-management-ma-had-tahfidz-kitabina submodule)
+>>>>>>> be62ca8 (Your commit message here)
     ?>
     <form method="post">
         <!-- Include a hidden input field to pass the ID for editing -->
@@ -94,11 +107,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <button type="submit" class="btn btn-primary">Update</button>
     </form>
     <?php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        }
+        // Close the prepared statement
+        $stmt->close();
+>>>>>>> 6e25d9b (Add system-management-ma-had-tahfidz-kitabina submodule)
+>>>>>>> be62ca8 (Your commit message here)
     } else {
         echo '<div class="alert alert-danger mt-3" role="alert">Invalid request. Please provide an id.</div>';
     }
     ?>
 </div>
 <?php
+<<<<<<< HEAD
     require_once('../footer.php');
+=======
+<<<<<<< HEAD
+    require_once('../footer.php');
+=======
+require_once('../footer.php');
+>>>>>>> 6e25d9b (Add system-management-ma-had-tahfidz-kitabina submodule)
+>>>>>>> be62ca8 (Your commit message here)
 ?>

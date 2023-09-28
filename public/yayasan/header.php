@@ -26,6 +26,18 @@ if (!isset($_SESSION['username'])) {
         <li class="nav-item">
           <a class="nav-link" href="akun_pesantren.php">Akun Pesantren</a>
         </li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        <li class="nav-item">
+          <a class="nav-link" href="guru.php">Guru</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="akun_guru.php">Akun Guru</a>
+        </li>
+>>>>>>> 6e25d9b (Add system-management-ma-had-tahfidz-kitabina submodule)
+>>>>>>> be62ca8 (Your commit message here)
       </ul>
       <span class="navbar-text">
         <a class="nav-link" href="logout.php">Logout</a>

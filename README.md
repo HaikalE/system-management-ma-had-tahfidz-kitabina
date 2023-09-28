@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> be62ca8 (Your commit message here)
 # system-management-ma-had-tahfidz-kitabina
 ## Login
 <img width="1280" alt="image" src="https://github.com/HaikalE/system-management-ma-had-tahfidz-kitabina/assets/89823572/4ada1e60-7a73-40df-ba18-f53aa11868ef">
@@ -23,3 +27,9 @@
 
 ### 3.2 Update akun pesantren
 <img width="1280" alt="image" src="https://github.com/HaikalE/system-management-ma-had-tahfidz-kitabina/assets/89823572/07ae2bf7-57b3-4dfe-b412-31dc3148d139">
+<<<<<<< HEAD
+=======
+=======
+# system-management-ma-had-tahfidz-kitabina
+>>>>>>> 6e25d9b (Add system-management-ma-had-tahfidz-kitabina submodule)
+>>>>>>> be62ca8 (Your commit message here)
